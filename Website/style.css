@@ -1,0 +1,83 @@
+body{background-image: url(./e3ac19ffba76847ab2b20ce6492547a1.jpg);
+background-size: cover;}
+
+
+
+*{
+
+
+    
+    font-family: arial;
+}
+
+.navbar{height: 80px;
+background-color: gold;
+color: black;
+display: flex;}
+
+
+.nav-icon{
+    height: 70px;
+    width: 70px;
+    display: flex;
+}
+
+
+.icon{
+    height: 70px;
+    width: 70px;
+    display: flex;
+    padding: 30px;
+
+}
+
+.nav-logo{height: 70px;
+width: 150px;
+display: flex;}
+
+
+
+
+
+
+.logo{background-image: url(../Uber-Eats-Logo-PNG.png);
+background-size: cover;
+height: 70px;
+width: 150px; display: flex;}
+
+
+.border{
+
+    border: 3px solid transparent;
+}
+
+.border:hover{border: 2px solid black;}
+
+.login{padding: 20px;
+padding-left: 35rem;
+
+font-size: larger;
+font-weight: bold;}
+
+.logout{
+    padding: 20px;
+ margin-left: auto;
+font-size: larger;
+font-weight: bold;
+font-size: larger;
+
+}
+
+button:hover{
+    border-radius: 5px;
+    color: crimson;
+ }
+
+button{ border-radius: 10px;
+background-color: aqua;
+height: auto;}
+
+input{width: 400px; height: 60px;}
+
+select{width:120px; height: 62px;}
+

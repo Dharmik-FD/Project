@@ -1,0 +1,52 @@
+body{ margin: 0;
+padding: 0;
+}
+
+
+.nav{  background-color: #b13941;
+
+    display: flex;
+    justify-content: space-around;
+    /* text-align: justify; */
+    /* flex-direction: row; */
+    font-size: 30px;
+ text-decoration-color: #feedda;
+font-weight: 400;
+font-family: "Yeseva One";
+/* text-align: center; */
+
+}
+
+
+a{ color: #feedda;
+    margin: 50px;
+    text-align: center;
+    text-decoration: none;
+    
+    
+    
+    
+}
+
+.main{ text-align: center;
+    color: #feedda;
+padding: 100px; 
+font-size: 50px;
+background-image: url(../Image-1/Place\ Your\ Image\ Here.png);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+button{
+    font-size: 21px;
+/* letter-spacing: 0px; */
+line-height: 33px;
+background-color: #b13941;
+color: #feedda;
+font-weight: 700;
+font-family: "PT Serif";
+text-align: center;
+flex-direction: row;
+
+}
