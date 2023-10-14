@@ -1,0 +1,21 @@
+.f-nav{ background-color: lightcoral;
+display: flex;
+justify-content: center;
+justify-content: space-around;
+padding: 22px;}
+
+.feature{ display: flex;}
+
+.feature .app{ display: flex;
+margin-inline: 22px;
+align-content: center;}
+
+
+i{ margin-top: 18px;
+}
+
+.snav{  background-color: rgb(193, 204, 213);
+display: flex;
+height: 70px; 
+justify-content: center;
+display: inline;}
