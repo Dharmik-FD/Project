@@ -1,0 +1,71 @@
+.All-img{  display: flex;
+    flex-wrap: nowrap;
+    align-content: center;}
+    
+    
+    
+    
+    .div-2{ background-color: #21243d;
+    width: 99.99%;
+    position: relative;
+    overflow: hidden;
+    /* height:800px; */
+    }
+    
+    .shape-1{ position: absolute;
+        left: 1370px; top: -20px;
+    
+    }
+    .shape-2{ position: absolute;
+        top: -15px;
+    left: 300px; width: 120px;}
+    
+    .shape-3{ position: absolute;
+    top: 160px;
+    left: 100px;}
+    .shape-4{ position: absolute;
+    top: 600px; width: 150px;
+    left: -50px;}
+    
+    .shape-5{  position: absolute;
+    top: 350px;left: 1450px;
+    width: 60px;}
+    .shape-6{ position: absolute;
+    top: 700px; left: 1430px;}
+    
+    .text-3{ color: #ffffff;}
+    .h-1{ font-size: 50px;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Montserrat";
+        padding-top: 70px;
+        text-align: center;}
+    
+        .p-1{ font-size: 25px;
+            color: #ffffff;
+            font-weight: 400;
+            font-family: "Montserrat";
+            text-align: center;
+        /* border: 2px solid red; */
+    padding: 0px 200px 0px;}
+    
+    .img-1{ height: 600px;}
+    
+    .round{ 
+        width: 300px;height: 300px;
+    align-content: center;
+        border-radius: 50%;
+        margin-top: 100px;
+    margin-left: 110px;
+    }
+    
+    .text-4{ color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    justify-content: space-around;
+    padding: 20px 100px 0px;
+    text-align:center;}
+
+    h3{ font-size: 30px;
+    margin-top: -8px;}
+    p{ margin-top: -20px;}
