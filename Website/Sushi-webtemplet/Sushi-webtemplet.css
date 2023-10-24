@@ -4,7 +4,7 @@ padding: 0;
 box-sizing: border-box;}
 
 
-#header{ background: url(../Website/image-3/3218516.png)no-repeat center center/cover;}
+#header{ background: url(../Sushi-webtemplet/image/3218516.png)no-repeat center center/cover;}
     
 
 .wrapper{  background-color: #21243d;
@@ -94,7 +94,7 @@ overflow: hidden;
     left: 1370px; top: -20px;
 
 }
-.shape-2{ position: absolute;
+.shape-2{ position: absolute; top: -10px;
 left: 300px; width: 120px;}
 
 .shape-3{ position: absolute;
@@ -102,10 +102,10 @@ top: 160px;
 left: 100px;}
 .shape-4{ position: absolute;
 top: 600px; width: 150px;
-left: -30px;}
+left: -50px;}
 
 .shape-5{  position: absolute;
-top: 350px;left: 1450px;
+top: 330px;left: 1470px;
 width: 60px;}
 .shape-6{ position: absolute;
 top: 700px; left: 1430px;}
@@ -126,32 +126,50 @@ top: 700px; left: 1430px;}
     /* border: 2px solid red; */
 padding: 0px 200px 0px;}
 
-.img-1{ height: 600px;}
+/* .img-1{ height: 600px;} */
+
+
 
 .round{ 
     width: 300px;height: 300px;
+    
 align-content: center;
-    border-radius: 300px;
+    border-radius:50%;
     margin-top: 100px;
-margin-left: 110px;
+margin-left: 100px;
+
 }
 
 .text-4{ color: #ffffff;
 font-size: 15px;
 text-align: center;
 justify-content: space-around;
-padding: 20px 100px 0px;
+padding: 20px 100px 80px;
 text-align:center;}
 
-.div-3{ width: 99.99%;
-height: 600px;
+.div-3{ width: 99.99%; position: relative;
+/* height: 600px; */ padding: 100px;
+
 background-color: #ffd17e;}
 
-.img-3{ padding: 100px 0px 0px 130px;
+.s-circle-1{position: absolute; top: 160px; width: 150px;
+left: 130px; }
+
+.s-circle-2{position: absolute; top: 430px; width: 150px; 
+    left: 1420px;}
+
+.s-hdot-1{ position: absolute;
+left: 1430px; top:40px; width: 58px;}
+
+.s-vdot-1{ position: absolute; top: 400px; width: 58px; left: 20px;}
+
+.zikzek-1{ position: absolute; left: 510px;}
+
+.img-3{ padding: 100px 0px 0px 100px; 
 display: flex;}
 
 .text-5{ padding-left:  100px;
-color: #21243d;}
+color: #21243d;} 
 .h-2{ font-size: 51px;
     font-family: "Montserrat";
 
@@ -166,11 +184,33 @@ margin-top: 50px;
 .b-2{ margin: 50px 30px 0px 0px;}
 
 .img-4{ width: 300px;
-height: 300px;
+height: 300px; 
 border-radius: 300px;
-margin: 0 auto;
+margin: 0 auto; position: relative; z-index: 2;
+
 }
 
+.div-4{ width: 99.99%; position: relative; padding: 100px; }
+
+.shape-4-1{ position: absolute; overflow: hidden;
+left: 1250px;
+top: 50px; width: 150px;}
+
+.shape-4-2{ position: absolute;top: 50px; left: 80px; width: 150px;}
+
+.shape-4-4{ position: absolute; width: 150px;
+     top: 600px; left: 380px; margin: 50px;}
+
+     .shape-4-3{ position: absolute; top: 200px;}
+
+     .shape-4-5{ position: absolute; top: 630px; left: 870px; width: 150px;}
+ 
+     .shape-4-6{ position: absolute;
+    top: 640px; left: 1300px;
+    
+    
+    
+    }
 .h-3{ 
 text-align: center;
 color: #ffffff;
@@ -183,12 +223,12 @@ text-align: center;
 justify-content: center;
 /* border: 2px solid red; */
 /* display: inline; */
-padding:30px 100px 20px;
+padding:30px 100px 100px;
 }
 
 .m-circle{ 
 display:flex;
-height: 500px;
+/* height: 500px; */ padding-bottom: 100px;
 margin: 0 auto;
 align-items: center;
 justify-content: space-evenly;
@@ -204,13 +244,27 @@ text-align: center;
 border-radius: 200px;}
 
 .p-5{color: #ffffff;padding-top: 50px;
-    font-size: 30px;font-weight: 700;
+    font-size: 32px;font-weight: 900;
 
 }
 .div-6 { width: 99.99%;
 background-color: #ffd17e;
-display: flex;
+display: flex; padding: 100px;
+position: relative; overflow: hidden;
 }
+
+.s-circle-6{ width: 150px; position: absolute; top: 450px;
+left: 650px;}
+.s-circle-06{ width: 150px; position: absolute; left: 1150px; top: 130px;}
+
+.zikzek-6{ position: absolute; top: 100px; left: 200px;
+width: 100px;}
+
+.vdot{position: absolute; height: 150px; top: 500px; left: 1400px;}
+
+.h-dot{ position: absolute; left: 600px; top: 50px;
+width: 150px;}
+
 .text-6{ justify-content: center;
     margin: 100px;
 }
@@ -230,14 +284,15 @@ justify-items: center;
 }
 
 .img-6{ width: 300px; height: 300px;
-border: 2px solid #21243d;
+border: 2px solid #21243d; position: relative; z-index: 2;
 border-radius: 300px;
 margin: 100px 150px 100px}
 
 .b-6{margin: 45px 30px 0px 0px;}
 
 
-.div-7{background:url(../Website/image-3/backgrnd-food\ .png)no-repeat center center/cover;
+
+.div-7{background:url(../Sushi-webtemplet/image/backgrnd-food\ .png)no-repeat center center/cover;
 
 width: 99.99%; padding: 100px;}
 
@@ -261,8 +316,23 @@ padding: 20px 0px 20px;
 }
 
 .div-8{ background-color: #ffd17e;
-width: 99.99%;
+width: 99.99%; padding: 100px;
+position: relative; overflow: hidden;
 }
+
+.circle-08{ position: absolute; width: 150px;
+left: 1400px; top: 25px; }
+
+.circle-8{ position: absolute; width: 150px; top:500px;
+    left: 650px; }
+
+    .hdot-8{ position: absolute; top: 70px; left: 100px;}
+
+    .vdot-8{ position: absolute; top:460px; left: 1380px;}
+
+    .zik-8{position: absolute; top: 550px;}
+
+    .zik-8-2{ position: absolute; left:1200px; top: 70px; }
 
 .h-8{   font-size: 50px;
     color:#21243d;
@@ -279,11 +349,12 @@ width: 99.99%;
          text-align: center;
         font-family: "Montserrat";
         padding: 20px 200px 20px;
-        
  } 
 
+ input[type="text"]{ padding-left: 40px;}
+
  .in-8{ width: 400px;height: 55px;
-    position: relative;
+    position: relative; 
     left: 400px;
     
     border: 2px solid #21243d;
@@ -292,8 +363,8 @@ width: 99.99%;
  }
  .b-8{ position: relative;
 left: 350px;
-height: 57.5px;
-border-radius: 160px;
+height: 55px;
+border-radius: 150px;
 margin: 50px 0px 100px;
 
 }

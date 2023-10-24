@@ -9,7 +9,7 @@
     width: 99.99%;
     position: relative;
     overflow: hidden;
-    /* height:800px; */
+    /* height:700px; */
     }
     
     .shape-1{ position: absolute;
@@ -49,13 +49,13 @@
         /* border: 2px solid red; */
     padding: 0px 200px 0px;}
     
-    .img-1{ height: 600px;}
+    /* .img-1{ height: 600px;} */
     
     .round{ 
         width: 300px;height: 300px;
     align-content: center;
         border-radius: 50%;
-        margin-top: 100px;
+        margin-top: 50px;
     margin-left: 110px;
     }
     

@@ -1,8 +1,9 @@
-body{ background-image: url(../websites/wp9443719.jpg );
+body{ background-image: url(../Web-practice/wp9443719.jpg );
    background-repeat: no-repeat;
    background-size:100%;
     margin: 0 ;
-    padding: 0;}
+    padding: 0;
+   overflow-x: hidden;}
 
 
    .nav-bar{

@@ -1,0 +1,289 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header1
+{  position: relative;
+    overflow: hidden;
+    width: 99%; height:800px;
+    background: url(../Burger-Website/Image/Rectangle\ \(2\).png);
+    /* display: flex; */
+}
+
+    .logo{ padding: 20px 20px 0px;}
+.image1
+{
+    justify-content: left;
+}
+
+.content1
+{  position: relative;
+    top: -35px;
+    right: 40px;
+    display: flex;
+    justify-content: right;
+}
+
+.nav-1{ list-style: none;
+display: flex;
+justify-content: right;
+gap: 20px;}
+
+a{ font-size: 21px;
+    text-decoration: none;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+/* a:active{ color: blue;} */
+
+a:hover{ color: crimson;
+}
+.div-2{ width: 99%;}
+
+.col-50{ width: 48%;
+padding: 100px 50px 0px;}
+
+.p-2{ font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Bebas Neue";
+    text-align: center;
+border: 3px dashed #3d2514;}
+.h-2{ font-size: 114px;
+    /* line-height: 62px; */
+    /* text-transform: uppercase; */
+    color: #3d2514;
+    font-weight: 1000;
+    font-family: "Alfa Slab One";
+    filter: drop-shadow(3.936px 4.528px 0px #fee8bc);}
+
+    .h-3{  color: #3d2514;
+        font-size:70px ;
+        font-weight: 800;
+        font-family: "Alfa Slab One";
+        filter: drop-shadow(3.936px 4.528px 0px #fee8bc);}
+
+        .col-49{ width: 51%;
+        }
+
+      .img-1{ position: absolute;
+    width: 225px;
+/* height: 300px; */
+top: 250px;
+left: 750px;
+transform:rotate(320deg);}  
+
+.img-2{  width: 140px;
+position: absolute;
+top: 250px;
+left: 1150px;}
+
+.img-3{width: 350px;
+position: absolute;
+top: 350px;
+left: 900px;
+ }
+ .shadow-1{ 
+    width: 600px;
+position: absolute;
+top: 640px;
+left: 770px;}
+
+.shadow-2{ 
+    width: 400px;
+position: absolute;
+top: 632px;
+left: 1020px;}
+
+.glow{ position: absolute;
+width: 400px;
+left: 830px;
+top: 100px;
+z-index: 5;}
+
+.red{position: absolute;
+top: 520px;
+left: 800px;
+width: 140px; }
+
+.border{ width: 120px;
+height: 120px; position: absolute;
+top: 530px;
+left:810px ;
+}
+span{ font-size: 40px;
+    font-family: "Bebas Neue";
+font-weight: 700;}
+
+.p-img{ color: #fee8bc;
+position: absolute;
+top: 550px;
+left:845px ;
+text-transform: capitalize; 
+}
+
+.sec-2{  width: 99%; }
+
+.wrapper-2{ display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.s-img-1{ margin:50px 0px 0px 0px;  position: relative; left: 25px;}
+
+.s-img-2{ margin: 50px 50px 0px 50px;}
+
+.s-img-3{margin: 50px 50px 0px 50px;  position: relative; top: -15px;}
+
+.pr-2{ position: absolute;
+top: 100px; left: 145px;
+color: aliceblue;
+font-size: 20px;}
+
+.pr-3{ position: absolute;
+    top: 120px; left: 145px;
+    color: aliceblue; font-weight: 600;
+    font-size: 35px;}
+
+.image-2{ position: relative;}
+
+    .pr-4{ position: absolute; font-size: 20px;
+    top: 70px; left:70px;
+color: aliceblue;}
+
+.pr-5{ position: absolute;
+    top: 100px; left: 70px; font-size: 26px;
+    font-weight: 600;
+color: aliceblue;}
+
+.pr-6{ position: absolute; font-size: 20px;
+    top: 300px; left: 70px;
+color: aliceblue;}
+
+.pr-7{ position: absolute;
+    top: 325px; left: 70px; font-size: 26px;
+    font-weight: 600;
+color: aliceblue;}
+
+.d-2{ border: 2px solid blue; width: 200px; margin: 0 auto; font-size: 15px; padding: 5px;
+background-color:  #ffbf45; }
+
+.d-3{ font-size: 40px;
+    /* line-height: 38px; */ text-align: center;
+    /* text-transform: uppercase; */
+    color: #3d2514;
+    font-weight: 900;
+    font-family: "Alfa Slab One"; padding: 20px 0px 20px;}
+
+    .d-4{ text-align: center; padding: 10px 100px 20px;}
+
+.sec-3{ width: 99%; display: flex; }
+
+.all-cards{ width: 99%; display: flex; padding: 50px;}
+
+.card{ width: 33%;justify-content: space-around; align-items:center;
+    margin-left: 80px;
+    
+}
+
+.h-3-h{ font-size: 25px; 
+    /* line-height: 38px; */
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 700; margin-left: 30px;
+    padding: 30px 0px 10px;
+    font-family: "Bebas Neue";}
+
+    .h-3-p{
+        font-size: 17px;
+        /* line-height: 21px; */
+        color: #3d2514; 
+        font-weight: 400;
+        font-family: "Montserrat";
+        padding: 10px 0px 0px;
+        text-align: center;
+    margin-right: 30px;}
+
+    .b-3{ font-size: 17px; 
+        /* line-height: 38px; */
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-top: 30px;
+        font-weight: 400; 
+        font-family: "Alfa Slab One";
+        margin-left: 100px;
+        width: 140px;
+        height: 50px;
+        background-color: #bf2222;}
+
+        .div-4{ padding: 50px 0px;}
+
+        .text-4{ display: flex; margin-left: 80px;}
+    
+         .sp-1{ font-size: 29px;
+            letter-spacing: 2px;
+            line-height: 46px;
+            text-transform: uppercase;
+            color: #3d3d3d;
+            font-weight: 700;
+            font-family: "Bebas Neue";}
+
+            .sp-2{ color: #3d2514; font-weight: 900;}
+
+            .p-3-4{ padding: 100px 80px 0px;}
+
+            .img-4{ padding: 20px;}
+
+
+            .sec-5{ position: relative; overflow: hidden;}
+
+            .brgr{ position: absolute; top: -50px; left: -65px;}
+
+            .btl{ position: absolute; top: 180px; left: 100px;}
+
+            .dish{ position: absolute; left: 1250px; bottom: -100px; width: 500px;}
+
+            .p-1-5{ font-size: 25px;
+                letter-spacing: 2px;
+                text-align: center;
+                color: #3d2514;
+                font-weight: 700;
+                font-family: "Bebas Neue";
+            padding: 20px 0px 50px; position: relative; top: 50px;}
+
+            .sp-3{ position: relative; top: 20px;}
+                
+         .input{ width: 400px; height: 50px; margin: 20px 10px 10px 10px; position: relative; top: 80px; text-align: center; }
+
+        .form{ text-align: center; padding-bottom: 100px;}
+
+        #ppl{ position: relative;
+        right: 10px; top: -5px;}
+
+        button{ width:400px; background-color: #bf2222; margin-top: 100px; color: #fee8bc; font-size: 20px;
+        padding: 13px 0px;}
+
+        .div-6{ background: url(../Burger-Website/Image/footer-background.png)no-repeat center center/cover; padding: 100px;}
+
+        .p-1-6{ color: #ffffff; font-size: 15px; width: 40%;}
+
+        .ftr-2{  color: #ffffff; position: relative; left: 900px; top: -100px; }
+
+        .img-3-6{margin-left: 5px;}
+
+        .p-2-6{ color: #ffffff; font-size: 15px; position: relative; top: 140px;}
+
+        .img-1-6{ padding:0px 0px 30px;}
+
+        .s-m{  position: relative; left: 1225px; bottom: -70px; padding: 4px;}
