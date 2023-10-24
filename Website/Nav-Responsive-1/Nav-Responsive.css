@@ -1,0 +1,72 @@
+
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;}
+    
+    nav{ height: 80px;
+    background-color: crimson; display: flex;}
+    
+    img{ width: 150px;}
+    
+    ul{ display: flex; align-items: center; text-align: center;}
+    
+    li a{ font-size: 25px; color: white; margin: 0px 20px;}
+    
+    #button,#cancle{ font-size: 30px; color: aliceblue; margin-left: 30px; padding: 25px; 
+    cursor: pointer; display: none;}
+
+#check{ display: none;}
+
+/* midia devices (phones less than 576) */
+
+@media(max-width:576px){    
+
+nav img{  width: 150px;}
+
+nav ul li a{ font-size: 20px; text-align: center;}
+
+#button{ position: relative; right: 15px;}
+
+a{ position: relative; left: 50px;}
+
+
+#button{ display: block; }
+
+ul{ position: fixed; width: 200px;
+     text-align: center; flex-wrap: wrap; text-align: center;
+top: 80px; left: -100%;
+ transition: .5s; background-color: teal;  right: 20px;}
+
+nav ul li{ display: block; margin: 20px 0px; text-align: center;}
+
+#check:checked ~ ul{ left: 0%;}
+
+}
+
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+    nav img{  width: 150px;}
+
+nav ul li a{ font-size: 20px; text-align: center;}
+
+#button{ position: relative; right: 15px;}
+
+a{ position: relative; left: 50px;}
+
+#button{ display: block; }
+ul{ position: fixed; width: 200px;
+    text-align: center; flex-wrap: wrap; text-align: center;
+top: 80px; left: -100%;
+transition: .5s; background-color: gold;  right: 20px;}
+
+nav ul li{ display: block; margin: 20px 0px; text-align: center;}
+
+#check:checked ~ ul{ left: 0%;}
+ }
+
+ /* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  nav{ flex-direction: row; align-items: center;}}
