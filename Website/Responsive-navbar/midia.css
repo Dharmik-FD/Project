@@ -1,6 +1,8 @@
 
 /* // X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { .div-1{ margin: 0 auto; background-color: crimson;}
+@media (max-width: 575.98px) { .menu
+    { margin: 0 auto; background-color: crimson; display: block;
+         flex-direction: column; align-items: center; text-align: center;}
 
 
 

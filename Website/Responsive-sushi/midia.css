@@ -11,7 +11,7 @@
     align-items: center;
 }
 .All-img
-{      
+{      position: relative;
     flex-direction: column;
     align-content: center;
     
@@ -20,9 +20,11 @@
 .round{ 
     align-items: center;
     flex-direction: column;
-    margin-left: -50px;
+    margin:0 auto; 
     justify-content: center;
     /* text-align: center; */
+
+    
     
     
 }

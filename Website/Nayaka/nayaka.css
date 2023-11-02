@@ -2,7 +2,7 @@
 display: flex;
 justify-content: center;
 justify-content: space-around;
-width: 90%;
+width: 99%;
 padding: 22px;}
 
 .feature{ display: flex;}
@@ -11,8 +11,9 @@ padding: 22px;}
 margin-inline: 22px;
 align-content: center;}
 
+.f-nav p{ font-size: 30px; font-weight: 800; text-transform:capitalize ;}
 
-i{ margin-top: 18px;
+i{ margin-top: 39px; margin-right: 5px; color: aliceblue; font-size:21px;
 }
 
 .snav{  background-color: rgb(15, 72, 119);
@@ -32,3 +33,6 @@ align-content: center;}
 justify-content: space-between;
 
 background-color: aliceblue;}
+
+a{ text-decoration: none;
+margin-left: 20px; font-size: 20px;}

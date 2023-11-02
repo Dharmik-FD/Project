@@ -1,0 +1,398 @@
+body{ margin: 0;
+padding: 0;
+}
+
+
+.nav{  background-color: #b13941;
+/* background-image: url(); */
+/* background-repeat: no-repeat; */
+/* background-size: cover; */
+    display: flex;
+    justify-content: space-around;
+    /* text-align: justify; */
+    align-items: center;
+    font-size: 30px;
+ text-decoration-color: #feedda;
+font-weight: 400;
+font-family: "Yeseva One";
+flex-wrap: wrap;
+
+
+}
+
+
+a{ color: #feedda;
+    margin: 50px;
+    text-align: center;
+    text-decoration: none;
+    height: 1cm;
+    line-height: 2cm;
+
+    /* height and line-height are nav bar ma font text ne align and center  */
+  
+}
+
+.logo-1{ align-items: center;}
+
+.main{ text-align: center;
+    color: #feedda;
+padding: 100px; 
+font-size: 50px;
+background-image: url(../Coffie-Web/Image/Place\ Your\ Image\ Here.png);
+background-repeat: no-repeat;
+background-size: cover;
+
+
+
+}
+
+
+
+
+
+
+.page2
+{
+    width: 100%;
+    height: 477px;
+    border: 1px solid black;
+    background-color: #b13941;
+    display: flex;
+}
+.page2 img{
+    width: 300px;
+    height: 300px;
+    padding-left: 150px;
+    padding-top: 100px;
+}
+ #p1
+{
+    font-family: "Yeseva One";
+    font-size: 45px;
+    padding-left: 100px;
+    padding-top: 78px;
+    color: #feedda;
+}
+ #p2
+{
+    font-size: large;
+    color: black;
+    color: #feedda;
+    padding-left: 100px;
+}
+#b2
+{
+    margin-left: 100px;
+    width: 219px;
+    height: 47px;
+    font-family: "Yeseva One";
+    color: #b13941;
+    background-color: #feedda;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button{
+    font-size: 21px;
+
+line-height: 33px;
+background-color: #b13941;
+color: #feedda;
+font-weight: 700;
+font-family: "PT Serif";
+text-align: center;
+flex-direction: row;
+
+}
+
+
+
+
+.text{ text-align: center;
+background-color: #b13941;
+margin-left: 400px;
+text-align: justify;
+margin-top: -300px;
+color: #feedda;
+padding-left: 50px;
+
+
+}
+
+.two{ background-color: #feedda;
+color: #b13941;
+margin-left: 80px;}
+
+
+
+.div-1{ background-color:#f8eed3;
+border: 1px solid bisque;
+width: 100%;
+height: 600px;
+display: flex;}
+
+.div-1 img{  width: 600px;
+position:relative}
+
+.logo-1{ display: inline-block;}
+
+
+
+.pera-1{ font-size: 70px;
+    letter-spacing: 2px;
+    
+    
+    justify-content: center;
+    color: #575757;
+    font-weight: 600;
+    margin-left: 100px;
+    font-family: "Yeseva One";}
+
+    .pera-2{
+/* text-align: center; */
+justify-items: center;
+margin-left: 100px;
+padding-inline-end: 100px;
+    }
+
+    .link-1{  color: #b13941;
+    margin-left: 100px;
+font-weight: 600;}
+
+.menu
+{
+    width: 100%;
+height: 781px;
+background-color: #b13941;
+border: 1px solid black;
+}
+
+
+.p-1{  font-size: 58px;
+        letter-spacing: 1px;
+        color: #f8eed3;
+        text-align: center;}
+
+
+  .p-2{  font-size: 21px;
+            letter-spacing: 0px;
+            line-height: 33px;
+            color: #f8eed3;
+            font-weight: 400;
+            font-family: "PT Serif";
+            text-align: center;
+        margin-top: -30px;}
+
+
+ .m-card{  width: 499px;
+            height: 312px;
+            background-color: #ffffff;}
+
+
+   .card{
+                width: 500px;
+                height: 350px;
+                display: flex;
+                
+                background-color: white;
+                margin-top: 80px;
+                margin-left: 10px;
+                margin-right: 10px;
+                
+            }
+            
+
+            
+#mp1
+{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: "Yeseva One";
+}
+#mp2
+{
+    word-spacing: 5px;
+    text-align: center;
+    font-size: medium;
+    color: black;
+}
+  .card img
+{
+    width: 250px;
+}
+.allcards
+{
+    display: flex;
+    justify-content: space-between;
+}
+.b3
+{
+    margin-left: 40px;
+    width: 140px;
+    height: 47px;
+    font-family: "Yeseva One";
+    color: #feedda;
+    background-color: #b13941;
+    font-size: 15px;
+}
+
+
+.Company-profile
+{
+    width: 100%;
+    height: 700px;
+    border: 1px solid black;
+    background-color: #b13941;
+    display: flex;
+    
+}
+.movie
+{
+    width: 50%;
+    height: 400px;
+    
+    margin-left: 60px;
+    margin-top: 100px;
+}
+.Company-profile video
+{
+    width: 100%;
+    height: 400px;
+}
+.company-content
+{
+    width: 50%;
+    height: 400px;
+    
+    
+    margin-top: 100px;
+}
+#Company-Profile
+{
+    font-size: 45px;
+    letter-spacing: 1px;
+    font-family: "Yeseva One";
+    
+    padding-left: 50px;
+    font-weight: 400;
+    color: #feedda;
+}
+#profile-content
+{
+    width: 576px;
+    
+    
+    font-size: 21px;
+    color: #feedda;
+    font-family: "PT Serif"; 
+    padding-left: 50px;  
+}
+.icon
+{
+width: 200px;
+display: flex;
+padding-left: 50px;
+justify-content: space-around;
+}
+.Contact-us
+{
+width: 100%;
+height: 767px;
+border: 1px solid black;
+display: flex;
+}
+#ctitle
+{
+font-size: 45px;
+font-family: "Yeseva One";
+text-align: center;
+color: #b13941;
+font-weight: bold;
+}
+.Inputside
+{
+width: 100%;
+height: 767px;
+border: 1px solid black;
+background-color: #efefef;
+}
+#input1
+{
+margin-left: 60px;
+width: 651px;
+height: 50px;
+background-color: #efefef;
+}
+#input2
+{
+margin-left: 60px;
+width: 650px;
+height: 100px;
+background-color: #efefef;
+}
+#b5
+{
+margin-top: 40px;
+margin-left: 60px;
+width: 150px;
+height: 47px;
+font-family: "Yeseva One";
+color: #feedda;
+background-color: #b13941;
+font-size: 20px;
+}
+.lastdata
+{
+width: 100%;
+height: 323px;
+border: 1px solid black;
+background-color: #b13941;
+display: flex;
+}
+#coffee1
+{
+margin: 50px;
+width: 200px;
+}
+.table1
+{
+margin-top: 50px;
+width: 201px;
+height: 270px;
+/* border: 1px solid black; */
+}
+#data1
+{
+text-align: center;
+font-size: 25px;
+font-weight: bold;
+color: #feedda;
+}
+#data2
+{
+font-size: 20px;
+color: #feedda;
+font-weight: 400;
+text-align: center;
+}
+#data3
+{
+margin-top: 100px;
+width: 201px;
+height: 270px;
+font-size: 20px;
+color: #feedda;
+font-weight: 400;
+text-align: center;
+}
+.data4
+{
+margin-top: 80px;
+margin-left: 80px;
+background-color: #b13941;
+}
+#data5
+{
+color: #feedda;
+}

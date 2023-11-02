@@ -29,7 +29,7 @@ nav{ padding: 20px 0px;}
 li{ list-style-type: none;}
 
 a{ text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     /* justify-content: space-around; */
     padding-right
     : 60px;
@@ -293,9 +293,11 @@ margin: 100px 150px 100px}
 
 
 .div-7{background:url(../Sushi-webtemplet/image/backgrnd-food\ .png)no-repeat center center/cover;
+    margin: 0; justify-content: center;
 
 width: 99.99%; padding: 100px;}
 
+.image-7{ margin: 0; justify-content: center; }
  
 .img-7{ width:300px;
 position: relative;
@@ -348,29 +350,46 @@ left: 1400px; top: 25px; }
         /* width: 900px; */
          text-align: center;
         font-family: "Montserrat";
-        padding: 20px 200px 20px;
+        padding: 20px 100px 20px;
  } 
 
- input[type="text"]{ padding-left: 40px;}
+ .input-control
+ {  padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+ }
 
- .in-8{ width: 400px;height: 55px;
-    position: relative; 
-    left: 400px;
+ input[type="text"]{ text-align: center;}
+ input
+ {   
+    width: 400px;
+    height: 55px;
+ }
+ /* input[type="text"]{ padding-left: 40px;} */
+
+ .in-8{ 
+    /* width: 400px; */
+    /* height: 55px; */
+    /* position: relative;  */
+    /* left: 400px; */
     
     border: 2px solid #21243d;
     border-radius: 160px;
     /* border-bottom-right-radius: 160px; */
  }
- .b-8{ position: relative;
-left: 350px;
+ .b-8{ 
+     position: relative;
+     right: 100px;
+
+/* left: 350px; */
 height: 55px;
-border-radius: 150px;
-margin: 50px 0px 100px;
+/* border-radius: 150px; */
+/* margin: 50px 0px 100px; */
 
 }
 
 .div-9{ background-color: #111111;
-width: 99.99%;
+width: 99.99%;  display: flex;
 }
 
 .text-9{
@@ -384,12 +403,13 @@ color: #ffffff;}
 .p-9-1{ font-size: 35px;
 padding-top: 15px;}
 
-table{ margin: 0 auto;
+table{ margin: 0 auto; 
     /* margin-left: 100px; */
-    position: relative;
-    left: 700px;
+    /* position: relative; */
+    /* left: 700px; */
     text-align: center;
+    padding: 100px 0px 0px 100px;
 height: 300px;
 width: 500px;
-top: -220px;
+/* top: -220px; */
 }
