@@ -260,7 +260,7 @@ line-height: 1.9;}
 
                                            /* sec-5 is start  */
 
-            .sec-5{ width: 99%; background-color: #EDEDED;
+            .sec-5{ width: 99%; background-color: #EDEDED;  position: relative;
             }
             
 .div-5{ padding: 50px;}
@@ -292,13 +292,13 @@ border-bottom: 3px solid red;}
             .card-1:hover img{ 
                 transform: scale(1.1);   }
 
-                #card-1{ margin-top: 5px;}
+                #card-1{ margin-top: 0px;}
 
 
                                            /* sec-6 is started  */
 
 
-               .sec-6{ width: 99%; padding: 100px;}                            
+               .sec-6{ width: 99%; padding: 100px; position: relative; background-color: #FFFFFF;}                            
 
                .text-a{ text-align: center; color: #333333;
                 font-weight: lighter; font-size: 30px;}
@@ -325,11 +325,111 @@ border-bottom: 3px solid red;}
 
                                          /* sec-7 is start */
 
+.sec-7{ width: 99%; background-color: #EDEDED; position: relative; }
+
+.t-7{ position: absolute; top: 120px; left: 150px; 
+font-size: 40px; color: #333333;
+border-bottom: 3px solid red; width: 80%;}
+
+
  .all-card-2{ display: flex;
      align-items: center; 
-    /* justify-content: space-evenly; */
-                                           
-     margin: 0; width: 99%; height: 100vh; 
-     padding: 100px; }                            
+    justify-content: center;
+                                          
+     margin: 0; width: 99%;
+      height: 100vh; 
+     padding: 100px; 
+    }      
+    
+    .c-2{ overflow: hidden;}
+
+     .c-2 img{  width: 348px;
+        height: 280px;
+    transform: scale(1);
+transition: 0.3s ease; 
+overflow: hidden;}
+
+.c-2:hover img { transform: scale(1.1);  }
+.c-2:hover h2 { text-decoration: underline;  }
 
      
+.c-2{ justify-content: center; margin: 0;width: 33%; padding: 50px; }
+.c-2 h2{ font-size: 18px; color:#333333; padding: 10px 5px;}
+
+
+
+
+
+
+                                         /* sec-8 is start  */
+.sec-8{ width: 99%;  position: relative; background-color: #FFFFFF;}
+
+.sec-8 h2{ font-size: 35px; color: #333333; font-weight: lighter; 
+padding-left: 100px; border-bottom: 3px solid red;}
+
+          .sec-8-m{ display: flex; padding: 100px; }                               
+
+          .img-8{ width: 70%;}
+
+          .sec-8-t{ width: 30%; height: 100vh; overflow: auto;}
+
+         .div-8 p { position: absolute; width: 400px; height: 250px;  
+        background-color:#fff; font-size: 40px; font-weight: lighter;
+        bottom: 100px; left: 100px;
+         color: #333333;}
+
+          .div-8{ position: relative; align-items: center;}
+
+          .sec-8-t h3{ font-size: 18px; color: #000000; padding: 30px; border-bottom: 1px solid red;
+         line-height: 1.9;}
+
+
+                                   /* footer section start  */
+
+
+
+            .fotter{ width: 99%; } 
+            .div-f{ background-color: #000000;}                      
+
+            .wrapper-f { text-align: center;
+                width: 99%;
+            
+                justify-content: center;
+                margin: 0; 
+            background-color: #000000;}
+
+               table{ text-align: center;
+            width: 1400px;
+            color: #FFFFFF;
+        padding:50px 0px 0px 100px;}
+
+        .logo-f{position: relative;
+         left: 500px; padding: 20px;
+        }
+        
+        .menu-f ul{ display: flex; justify-content: right;
+        gap: 20px; margin-right: 100px;
+    padding: 15px; }
+
+        
+        .menu-f ul li a{ font-size: 18px; color: #FFFFFF;
+            
+            }
+
+            hr{ color: #FFFFFF;}
+
+            .menu-f2 ul{ display: flex; padding: 20px; gap: 25px;}
+
+            .menu-f2 ul li a{ font-size: 15px; color: #FFFFFF;}
+
+            .menu-f-f{ display: flex; margin-left: 100px;}
+
+            .menu-icon{ padding: 20px; margin-left: 100px; padding-left: 100px;}
+
+            .menu-icon img{ margin-left: 25px; }
+
+            .f-p{ font-size: 14px; color: #FFFFFF;
+
+                margin-left: 100px;
+                padding-left: 20px;
+            }

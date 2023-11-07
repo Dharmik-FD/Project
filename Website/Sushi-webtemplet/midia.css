@@ -26,9 +26,9 @@
           
      }
      
-     .m-img{ margin-right: 100px; padding-right: 30px;}
+     .m-img{ position: relative; right: 130px;}
 
-     .round{ margin-right: 100px;}
+     .round{ margin: 0;}
 
      
 
@@ -108,25 +108,31 @@
      .div-6 {
           flex-direction: column;
           align-items: center;
-          position: relative;
+          width: 99.99%;
+          padding: 100px;
      }
 
-     .img-6 {
+     .image{ 
+           padding: 100px; } 
+
+     .img-6 { 
           margin: 0;
-          position: absolute;
-          top: 50px;
-          right: 140px;
+     width: 200px; height: 200px;
+     border-radius: 50%; 
+         
      }
 
      .text-6 {
-          position: relative;
-          top: 180px;
+          
+          
           text-align: center;
      }
 
      .h-6 {
           font-size: 30px;
      }
+
+     
 
      .input-control .b-8{ width: 100%; font-size: 20px; text-align: center;}
 

@@ -1,7 +1,8 @@
 /* // X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px)  { .header{ flex-direction: column; align-items: center;}
+@media (max-width: 575.98px)  { *{ flex-direction: column; align-items: center; margin: 0;}
+     /* .header{ flex-direction: column; align-items: center;} */
 
-.wrapper-2,.image-1,.image-2{ flex-direction: column; align-items: center;}
+/* .wrapper-2,.image-1,.image-2{ flex-direction: column; align-items: center;} */
 
 .wrapper-3, .all-cards,.card img{flex-direction: column; align-items: center;  margin: 0;}
 
@@ -14,9 +15,9 @@ position: relative;right: 100px;}
 
 .b-3{ margin: 30px 0px 50px 100px;}
 
-.text-4,.img-4{ flex-direction: column; align-items: center;}
+/* .text-4,.img-4{ flex-direction: column; align-items: center;} */
 
-.div-5,.text-5, .form{ flex-direction: column; align-items: center;}
+/* .div-5,.text-5, .form{ flex-direction: column; align-items: center;} */
 
 #ppl{ margin: 100px 0px 0px 20px;}
 
